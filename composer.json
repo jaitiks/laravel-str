@@ -1,0 +1,20 @@
+{
+    "name": "jaitik/laravel-str",
+    "description": "This package provides a string helper functions to work with strings in php.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jaitikvaland",
+            "email": "jaitik.valand@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": ["src/str_helper.php"],
+        "psr-4": {
+            "Jaitik\\String\\": "src/"
+        }
+    }
+}
